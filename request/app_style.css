@@ -30,9 +30,38 @@ body {
     width: 100%;
 }
 
+h2 {
+  font-size: 36px;
+  font-family: Arvo;
+  color: #4A4A4A;
+}
+
+p.availabletime {
+  font-family: Lato;
+  font-size: 20pt;
+}
+
 p.call {
-  background: #cacaca !important; 
+  /*background: #cacaca !important; */
+  background: #59B7C6 !important;
+  color: #ffffff !important;
   padding: 2px;
+}
+
+button#submit-button {
+    background: #e02f92;
+    height: 80px !important;
+    width: 100%;
+    font-family: Arvo;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+button#direction-button {
+    background: #4aa9b9;
+    font-family: Arvo;
+    font-size: 16px;
+    color: #FFFFFF;
 }
 
 html {
@@ -50,5 +79,167 @@ body {
 
 #map-container img {
   max-width: none;
-  /* ... */
+}
+
+input {
+  border-radius: 0px !important;
+}
+
+.label-span {
+    color: #838383;
+}
+
+button {
+  border-radius: 0px !important;
+}
+
+div.direction{
+  width:42px;
+  height:42px;
+  background-size:100%;
+  opacity: 0.5;  
+}
+
+div.direction:hover{
+  opacity: 1.0;
+  border-bottom: 5px solid #4aa9b9;
+}
+
+div.bus{
+  background-image:url(https://s3.amazonaws.com/hfh-yamashita/image/bus.svg);
+}
+
+div.car{
+  background-image:url(https://s3.amazonaws.com/hfh-yamashita/image/car.svg);
+}
+
+div.walking{
+  background-image:url(https://s3.amazonaws.com/hfh-yamashita/image/walking.svg);
+}
+
+/**
+ *
+ * given style from this line
+ *
+ **/
+
+.stickyHeader{
+background: #59B7C6;
+box-shadow: 0 6px 4px 0 rgba(151,147,147,0.50);
+}
+
+.stickyFormfields{
+opacity: 0.3;
+background: #FFFFFF;
+font-family: ;
+font-size: 18px;
+color: #033C45;
+letter-spacing: 0.18px;
+}
+
+.button-link {
+background: #FF52A5;
+font-family: .SFNSDisplay;
+font-size: 20px;
+color: #FFFFFF;
+letter-spacing: 0.25px;}
+
+.button-link:hover{
+font-family: Arvo;
+font-size: 20px;
+color: #FFFFFF;
+letter-spacing: 0.25px;
+}
+
+.button-link:active {
+background: #FF52A5;
+font-family: Arvo;
+font-size: 20px;
+color: #FFFFFF;
+letter-spacing: 0.25px;}
+
+.searchbar {
+background: #FFFFFF;
+box-shadow: 0 6px 4px 0 rgba(67,24,71,0.50);
+font-family: ;
+font-size: 24px;
+color: #A10BAD;
+}
+
+.searchbutton{
+background: #FF52A5;
+}
+
+.valueProp{
+    /* Find free services f: */
+font-size: 40px;
+color: #FFFFFF;
+letter-spacing: 0.5px;
+line-height: 73px;
+}
+
+.clinicName{
+font-size: 36px;
+font-family: ;
+color: #4A4A4A;}
+
+.clinicHOurs{
+font-family: ;
+font-size: 20px;
+color: #4A4A4A;}
+
+.callButton{
+background: #59B7C6;
+font-family: ;
+font-size: 14px;
+color: #FFFFFF;
+letter-spacing: 0.23px;
+}
+
+.contactFormfield{
+opacity: 0.3;
+background: #D8D8D8;
+font-family: ;
+font-size: 16px;
+color: #4A4A4A;}
+
+.requestApptButton{/* Request Appointment: */
+font-family: ;
+font-size: 24px;
+color: #FFFFFF;}
+
+.dropdownList{/* Rectangle 12: */
+opacity: 0.66;
+background: #FFFFFF;
+}
+
+.dropdownList li{
+/* Sunnyvale, CA: */
+font-family: ;
+font-size: 24px;
+color: #4A4A4A;
+}
+
+.dropdownList li:hover{
+background: #CB77D2;
+font-family: ;
+font-size: 24px;
+color: #FFFFFF;
+}
+
+.searchResultCard {
+background: #FFFFFF;
+box-shadow: 5px 3px 5px 0 rgba(137,137,137,0.50);
+font-family: ;
+color: #4A4A4A;
+}
+
+.searchResultCard li{
+font-family: ;
+color: #4A4A4A;
+}
+
+.searchResultCard li:hover{
+background: #FF52A5;
+color: #FFFFFF
 }
