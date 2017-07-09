@@ -133,7 +133,7 @@
                     text: '',
                     type: 'success'
                 }, function () {
-                    return;
+                    location.href='https://hercare.herokuapp.com/';
                 });
             }).catch(function (e) {
                 swal({
@@ -145,8 +145,8 @@
                 });
             });
         });
-        $('#summary-container').click(function () {
-            history.back();
+        $('.center-block').click(function () {
+            location.href='https://hercare.herokuapp.com/';
         });
     };
 
